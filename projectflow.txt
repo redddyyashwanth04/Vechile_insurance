@@ -13,3 +13,13 @@ write the code on the setup.py and project.toml to import local packages
 11. Dataset added to notebook folder
 12. Push your data to mongoDB database from your python notebook.
 13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
+14. Write the logger file and test it on demo.py
+15. Write the exception file and test it on demo.py
+16. EDA and Feature Engg notebook added.
+17. Before we work on "Data Ingestion" component >> Declare variables within constants.__init__.py file >> 
+    add code to configuration.mongo_db_connections.py file and define the func for mondodb connection >> 
+     Inside "data_access" folder, add code to proj1_data that will use mongo_db_connections.py
+     to connect with DB, fetch data in key-val format and transform that to df >>
+     add code to entity.config_entity.py file till DataIngestionConfig class >>
+    add code to entity.artifact_entity.py file till DataIngestionArtifact class >>
+    
