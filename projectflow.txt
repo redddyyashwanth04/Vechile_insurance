@@ -22,4 +22,7 @@ write the code on the setup.py and project.toml to import local packages
      to connect with DB, fetch data in key-val format and transform that to df >>
      add code to entity.config_entity.py file till DataIngestionConfig class >>
     add code to entity.artifact_entity.py file till DataIngestionArtifact class >>
-    
+18. To setup the connection url on mac(also work for windows), open bash/powershell terminal and run below command:
+                        *** For Bash ***
+    set: export MONGODB_URL="mongodb+srv://<username>:<password>......"
+    check: echo $MONGODB_URL

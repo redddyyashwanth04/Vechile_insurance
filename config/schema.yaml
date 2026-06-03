@@ -1,5 +1,4 @@
 columns:
-  - id: int
   - Gender: category
   - Age: int
   - Driving_License: int
@@ -11,7 +10,6 @@ columns:
   - Policy_Sales_Channel: float
   - Vintage: int
   - Response: int
-
 
 numerical_columns:
   - Age
@@ -28,13 +26,13 @@ categorical_columns:
   - Vehicle_Age
   - Vehicle_Damage
 
-drop_columns: _id
+# Change this from _id to id
+drop_columns: id
 
 # for data transformation
 num_features:
   - Age
   - Vintage
-
 
 mm_columns:
   - Annual_Premium
